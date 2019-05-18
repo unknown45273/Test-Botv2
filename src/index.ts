@@ -91,4 +91,4 @@ function loadCommands(commandsPath: string) {
     }
 }
 
-client.login(ConfigFile.config.token);
+bot.login(process.env.token);
